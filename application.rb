@@ -119,7 +119,7 @@ delete '/reviews/:id' do
     json("There was a problem removing the review")
   end
 end
-# curl -X DELETE -d "review[name]=Goodbye" http://localhost:4567/reviews/1
+# curl -X DELETE http://localhost:4567/reviews/1
 
 # "Review was removed."
 
