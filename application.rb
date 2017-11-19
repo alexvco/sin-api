@@ -18,6 +18,7 @@ DataMapper.auto_migrate!
 
 
 # To start the server: ruby -Ilib application.rb
+# Note that since its an in memory database, sometimes if you run the db server too long or if you get an error, things start to break so restart the server
 
 
 
@@ -78,7 +79,6 @@ post '/reviews' do
   end
 end
 # curl -d "review[name]=Hello&review[text]=World" http://localhost:4567/reviews
-# curl - X post http://localhost:4567/reviews -H "Content-Type:application/json" -d {"name":"New","text":"World"}
 
 
 
