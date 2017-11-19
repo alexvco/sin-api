@@ -78,6 +78,7 @@ post '/reviews' do
   end
 end
 # curl -d "review[name]=Hello&review[text]=World" http://localhost:4567/reviews
+# curl - X post http://localhost:4567/reviews -H "Content-Type:application/json" -d {"name":"New","text":"World"}
 
 
 
