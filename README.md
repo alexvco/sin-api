@@ -1,3 +1,3 @@
 # To start the server: ruby -Ilib application.rb
 
-sinatra api using mongodb with datamapper
+sinatra api, content-type json, using mongodb with datamapper
